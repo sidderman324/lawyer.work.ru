@@ -9,16 +9,16 @@
 	<title>Адвокаты главная</title>
 </head>
 <body>
-	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php');?>
+	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/header.php'); ?>
 
 	<section class="promo">
 		<div class="container promo__inner">
 			<h1 class="promo__title">Юридические и бухгалтерские услуги от компании "ЮРИ"</h1>
 			<p class="promo__text">Надежная защита ваших прав и гарантия на успех!</p>
 			<div class="type">
-				<a href="#" class="type__item type__item--crowd">Юридические услуги для юридических лиц</a>
-				<a href="#" class="type__item type__item--one">Юридические услуги для физических лиц</a>
-				<a href="#" class="type__item type__item--calc">Бухгалтерские услуги</a>
+				<a href="#" class="type__item type__item--crowd">Юридические услуги<br> для юридических лиц</a>
+				<a href="#" class="type__item type__item--one">Юридические услуги<br> для физических лиц</a>
+				<a href="#" class="type__item type__item--calc">Бухгалтерские<br> услуги</a>
 			</div>
 		</div>
 	</section>
