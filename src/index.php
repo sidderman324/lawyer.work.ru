@@ -127,46 +127,49 @@
 	<section class="review">
 		<div class="container review__inner">
 			<h2 class="section__title">ОТЗЫВЫ КЛИЕНТОВ</h2>
+			<span class="section__separator"><span class="section__separator-inner"></span></span>
 			<p class="section__subtitle">О работе наших специалистов и компании «Юри»</p>
 
 			<div class="review__wrapper">
-				<article class="review-item">
-					<img src="" alt="" class="review-item__img">
-					<blockqoute class="review-item__text">Обратилась в эту компанию по вопросу развода. Специалист проконсультировал о перспективах развития ситуации, предупредил, что без суда здесь не обойдется. Очень рада, что обратилась именно сюда! Всё благополучно решили.</blockqoute>
-					<p class="review-item__date">30.11.2017</p>
-					<p class="review-item__author">Клименко А.О.</p>
+				<article class="review__item">
+					<img src="/img/review_klimenko.png" alt="" class="review__item-img">
+					<blockqoute class="review__item-text">Обратилась в эту компанию по вопросу развода. Специалист проконсультировал о перспективах развития ситуации, предупредил, что без суда здесь не обойдется. Очень рада, что обратилась именно сюда! Всё благополучно решили.</blockqoute>
+					<p class="review__item-date">30.11.2017</p>
+					<p class="review__item-author">Клименко А.О.</p>
 				</article>
-				<article class="review-item">
-					<img src="" alt="" class="review-item__img">
-					<blockqoute class="review-item__text">Юрист из этой фирмы очень выручил – помог отбить половину законной квартиры у «брата». Есть один шанс отстоять свои права – обратиться к профессионалам своего дела!</blockqoute>
-					<p class="review-item__date">04.09.2017</p>
-					<p class="review-item__author">Воронин С.М.</p>
+				<article class="review__item">
+					<img src="/img/review_voronin.png" alt="" class="review__item-img">
+					<blockqoute class="review__item-text">Юрист из этой фирмы очень выручил – помог отбить половину законной квартиры у «брата». Есть один шанс отстоять свои права – обратиться к профессионалам своего дела!</blockqoute>
+					<p class="review__item-date">04.09.2017</p>
+					<p class="review__item-author">Воронин С.М.</p>
 				</article>
-				<article class="review-item">
-					<img src="" alt="" class="review-item__img">
-					<blockqoute class="review-item__text">Оказался участником ДТП, обратился за помощью к «Юри». Страховщик отказался от выплаты. Судебное постановление было в мою пользу, и я смог получить не только полную выплату за поврежденное авто, но и неустойку.</blockqoute>
-					<p class="review-item__date">15.08.2017</p>
-					<p class="review-item__author">Нимчук В.В.</p>
+				<article class="review__item">
+					<img src="/img/review_nimchuk.png" alt="" class="review__item-img">
+					<blockqoute class="review__item-text">Оказался участником ДТП, обратился за помощью к «Юри». Страховщик отказался от выплаты. Судебное постановление было в мою пользу, и я смог получить не только полную выплату за поврежденное авто, но и неустойку.</blockqoute>
+					<p class="review__item-date">15.08.2017</p>
+					<p class="review__item-author">Нимчук В.В.</p>
 				</article>
 			</div>
 
 			<a href="#" class="review__btn"></a>
+			<span class="section__separator"><span class="section__separator-inner section__separator-inner--gray"></span></span>
 		</div>
 	</section>
 
 
 	<section class="clients">
 		<div class="container clients__inner">
-			<div class="clients__item"></div>
-			<div class="clients__item"></div>
-			<div class="clients__item"></div>
-			<div class="clients__item"></div>
+			<div class="clients__item clients__item--negabarit"></div>
+			<div class="clients__item clients__item--ed-center"></div>
+			<div class="clients__item clients__item--kweb"></div>
+			<div class="clients__item clients__item--spb-mipk"></div>
 		</div>
 	</section>
 
 	<section class="blog">
 		<div class="container blog__inner">
 			<h2 class="section__title">БЛОГ</h2>
+			<span class="section__separator"><span class="section__separator-inner"></span></span>
 			<p class="section__subtitle">Комментарии новостей и событий нашими специалистами</p>
 
 			<div class="blog-item">
@@ -193,6 +196,7 @@
 				<p class="blog-item__description">Между истцом и ответчиком может встать «миротворец». Насколько полезна инициатива Верховного суда...</p>
 				<a href="" class="blog-item__btn">Подробнее</a>
 			</div>
+			<span class="section__separator"><span class="section__separator-inner section__separator-inner--gray"></span></span>
 		</div>
 	</section>
 

@@ -1,0 +1,30 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/clients.less';
+
+
+.clients {
+	background-color: @light-gray-color;
+	padding: 40px;
+
+	&__inner {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	&__item {
+		width: 25%;
+		height: 151px;
+		display: inline-block;
+	}
+	&__item--negabarit {
+		background-image: url('/img/clients_negabarit.png');
+	}
+	&__item--ed-center {
+		background-image: url('/img/clients_ed-center.png');
+	}
+	&__item--kweb {
+		background-image: url('/img/clients_kweb.png');
+	}
+	&__item--spb-mipk {
+		background-image: url('/img/clients_spb-mipk.png');
+	}
+}

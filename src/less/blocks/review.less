@@ -1,0 +1,54 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/review.less';
+
+
+.review {
+	padding: 60px 0;
+
+
+	&__wrapper {
+		display: flex;
+		flex-direction: row;
+		padding: 80px 0 60px 0;
+		justify-content: space-between;
+	}
+
+	&__item {
+		width: 31%;
+		padding: 80px 50px 50px 50px;
+		background-color: @light-gray-color;
+		position: relative;
+		&:after {
+			content: "“";
+			display: inline-block;
+			font-size: 100px;
+			width: 50px;
+			height: 50px;
+			line-height: 110px;
+			text-align: center;
+			color: @white-color;
+			background-color: @red-color;
+			position: absolute;
+			left: 0;
+			top: -25px;
+		}
+	}
+	&__item-img {
+		position: absolute;
+		top: -50px;
+		left: 50px;
+	}
+	&__item-text {
+		font-size: 16px;
+		color: @black-color;
+		margin-bottom: 25px;
+		display: inline-block;
+	}
+	&__item-date {
+		font-size: 16px;
+		color: @black-color;
+	}
+	&__item-author {
+		font-size: 16px;
+		color: @black-color;
+	}
+}
