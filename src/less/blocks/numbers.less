@@ -1,0 +1,61 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/numbers.less';
+
+
+.numbers {
+	padding: 100px 0 60px 0;
+
+
+	&__item-wrapper {
+		width: 75%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 50px;
+		margin-top: 40px;
+		&--big {
+			flex-wrap: wrap;
+		}
+		&--big .numbers__item-title-wrapper {
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-top: 40px;
+			margin-bottom: 20px;
+
+		}
+	}
+	&__item {
+		text-align: center;
+	}
+	&__count {
+		color: @red-color;
+		font-size: 40px;
+		font-weight: bold;
+		margin-bottom: 30px;
+	}
+	&__text {
+		font-size: 14px;
+		color: @black-color;
+	}
+	&__item-title {
+		font-size: 14px;
+		text-transform: uppercase;
+		color: @black-color;
+		position: relative;
+		width: 50%;
+		text-align: center;
+		&:after {
+			content: '';
+			display: inline-block;
+			width: 130px;
+			height: 1px;
+			background-color: @light-gray-color;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			bottom: -130px;
+		}
+	}
+}

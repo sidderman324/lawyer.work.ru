@@ -25,8 +25,9 @@
 
 	<section class="numbers">
 		<div class="container numbers__inner">
-			<h2 class="numbers__title">Наши достижения</h2>
-			<p class="numbers__subtitle">Достижения компании "ЮРИ" и наших специалистов</p>
+			<h2 class="section__title">Наши достижения</h2>
+			<span class="section__separator"><span class="section__separator-inner"></span></span>
+			<p class="section__subtitle">Достижения компании "ЮРИ" и наших специалистов</p>
 
 			<div class="numbers__item-wrapper">
 				<div class="numbers__item">
@@ -42,13 +43,17 @@
 					<p class="numbers__text">выигранных дела<br> за прошедший месяц</p>
 				</div>
 			</div>
+			<span class="section__separator"><span class="section__separator-inner section__separator-inner--gray"></span></span>
 		</div>
 	</section>
 
 	<section class="about">
 		<div class="container about__inner">
+			<div class="about__img-wrapper">
+				<img src="/img/about_bgr.png" alt="" class="about__img">
+			</div>
 			<div class="about__text-wrapper">
-				<h2 class="about__title">Мы на практике</h2>
+				<h2 class="section__title">Мы на практике</h2>
 
 				<p class="about__case-number">Дело № 17-6610/2016</p>
 
@@ -65,6 +70,7 @@
 	<section class="numbers">
 		<div class="container numbers__inner">
 			<h2 class="section__title">РЕЗУЛЬТАТЫ РАБОТЫ</h2>
+			<span class="section__separator"><span class="section__separator-inner"></span></span>
 			<p class="section__subtitle">Результаты нашей компании за 2017 год</p>
 
 			<div class="numbers__item-wrapper numbers__item-wrapper--big">
@@ -113,6 +119,8 @@
 					<p class="numbers__text">дела<br>окончено</p>
 				</div>
 			</div>
+
+			<span class="section__separator"><span class="section__separator-inner section__separator-inner--gray"></span></span>
 		</div>
 	</section>
 
