@@ -184,10 +184,11 @@ gulp.task('clean', function () {
 gulp.task('js', function () {
   return gulp.src([
       // список обрабатываемых файлов
-      // dirs.source + '/js/jquery-3.1.1.min.js',
-      // dirs.source + '/js/jquery-migrate-1.4.1.min.js',
+      dirs.source + '/js/jquery-3.1.1.js',
+      dirs.source + '/js/jquery-migrate-1.4.1.min.js',
       // dirs.source + '/js/jquery.spoiler.min.js',
-      // dirs.source + '/js/maskedinput.js',
+      dirs.source + '/js/jquery.maskedinput.min.js',
+      // dirs.source + '/js/page-header.js',
       dirs.source + '/js/script.js',
       ])
   .pipe(plumber({ errorHandler: onError }))

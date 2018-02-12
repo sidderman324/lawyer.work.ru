@@ -206,7 +206,7 @@
 
 	<?php include ($_SERVER['DOCUMENT_ROOT'] . '/modules/footer.php');?>
 
-	<script src='/js/script.js'></script>
+	<script src='/js/script.min.js'></script>
 </body>
 </html>
 
