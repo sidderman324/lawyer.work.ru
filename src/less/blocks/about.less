@@ -10,43 +10,53 @@
 
   &__img-wrapper {
   	width: 33%;
-	position: relative;
-  }
-  &__img {
-  	position: absolute;
-  	right: 0;
-	height: 100%;
-  }
-  &__text-wrapper {
-  	width: 66%;
-  	padding: 50px 100px 60px 100px;
-  	text-align: center;
-  }
+   position: relative;
+   @media (min-width: @screen-xs) and (max-width: @screen-sm) {
+    display: none;
+   }
+ }
+ &__img {
+   position: absolute;
+   right: 0;
+   height: 100%;
+ }
+ &__text-wrapper {
+   width: 66%;
+   padding: 50px 100px 60px 100px;
+   text-align: center;
+   @media (min-width: @screen-xs) and (max-width: @screen-sm) {
+    width: 100%;
+    padding: 10px 0 25px 0;
+   }
+ }
 
-  &__case-number {
-  	font-size: 14px;
-  	color: @red-color;
-  	font-weight: bold;
-  	text-align: left;
-  }
+ &__case-number {
+   font-size: 14px;
+   color: @red-color;
+   font-weight: bold;
+   text-align: left;
+ }
 
-  &__btn {
-  	.btn_red;
-  	margin-top: 40px;
-  }
-  &__item-title {
-  	font-size: 14px;
-  	font-weight: bold;
-  	text-transform: uppercase;
-  	color: @black-color;
-  	margin-bottom: 5px;
-  	margin: 20px 0 10px 0;
-  	text-align: left;
-  }
-  &__item-text {
-  	font-size: 14px;
-  	color: @black-color;
-  	text-align: left;
+ &__btn {
+   .btn_red;
+   margin-top: 40px;
+ }
+ &__item-title {
+   font-size: 14px;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: @black-color;
+   margin-bottom: 5px;
+   margin: 20px 0 10px 0;
+   text-align: left;
+ }
+ &__item-text {
+   font-size: 14px;
+   color: @black-color;
+   text-align: left;
   	// margin-bottom: 30px;
+    @media (min-width: @screen-xs) and (max-width: @screen-sm) {
+      text-align: justify;
+    }
   }
 }

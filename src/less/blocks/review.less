@@ -3,6 +3,9 @@
 
 .review {
 	padding: 60px 0;
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		padding: 20px 0;
+	}
 
 
 	&__wrapper {
@@ -10,6 +13,11 @@
 		flex-direction: row;
 		padding: 80px 0 60px 0;
 		justify-content: space-between;
+
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			flex-direction: column;
+			padding: 50px 20px 35px 20px;
+		}
 	}
 
 	&__item {
@@ -31,6 +39,14 @@
 			left: 0;
 			top: -25px;
 		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			width: 100%;
+			margin-bottom: 55px;
+			padding: 55px 20px 35px 20px;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
 	}
 	&__item-img {
 		position: absolute;
@@ -42,6 +58,9 @@
 		color: @black-color;
 		margin-bottom: 25px;
 		display: inline-block;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			text-align: justify;
+		}
 	}
 	&__item-date {
 		font-size: 16px;

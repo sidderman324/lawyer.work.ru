@@ -4,16 +4,28 @@
 .clients {
 	background-color: @light-gray-color;
 	padding: 40px;
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		padding: 20px;
+	}
 
 	&__inner {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			flex-wrap: wrap;
+		}
 	}
 	&__item {
 		width: 25%;
 		height: 151px;
 		display: inline-block;
+		background-size: contain;
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			width: 50%;
+			height: 86px;
+		}
 	}
 	&__item--negabarit {
 		background-image: url('/img/clients_negabarit.png');

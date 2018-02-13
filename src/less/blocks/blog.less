@@ -3,6 +3,9 @@
 
 .blog {
 	padding: 100px 0 60px 0;
+	@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+		padding: 30px 0 20px 0;
+	}
 
 	&__item-wrapper {
 		padding: 30px 0;
@@ -11,12 +14,25 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			flex-direction: column;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			flex-direction: column;
+		}
 	}
 
 	&__item-column {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			align-items: center;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			align-items: center;
+		}
 	}
 
 	&__item {
@@ -26,6 +42,17 @@
 		position: relative;
 		background-color: @light-gray-color;
 		text-align: right;
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			width: 480px;
+		}
+		@media (min-width: @screen-sm) and (max-width: @screen-md) {
+			width: 75%;
+			margin-bottom: 15px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			width: 80%;
+			margin-bottom: 15px;
+		}
 		img {
 			width: 100%;
 		}
@@ -35,12 +62,17 @@
 			height: 48%;
 			display: flex;
 			flex-direction: row;
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+				flex-direction: column;
+			}
 			img {
 				height: 100%;
 				width: auto;
-			}
-			&:first-of-type {
-				// margin-bottom: 30px;
+				@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+					width: 100%;
+					height: auto;
+				}
+				
 			}
 		}
 	}
@@ -71,6 +103,13 @@
 		text-indent: 5px;
 		position: relative;
 		text-align: left;
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			padding: 20px;
+			padding-bottom: 40px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			padding: 20px 10px 40px 10px;
+		}
 		&:before {
 			content: '';
 			display: inline-block;
@@ -80,9 +119,20 @@
 			position: absolute;
 			top: 32px;
 			left: 30px;
+			@media (min-width: @screen-md) and (max-width: @screen-lg) {
+				left: 20px;
+				top: 21px;
+			}
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+				top: 21px;
+				left: 10px;
+			}
 		}
 		&--small {
 			width: 50%;
+			@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+				width: 100%;
+			}
 		}
 	}
 
@@ -95,5 +145,12 @@
 		font-weight: normal;
 		bottom: 16px;
 		right: 35px;
+
+		@media (min-width: @screen-md) and (max-width: @screen-lg) {
+			right: 20px;
+		}
+		@media (min-width: @screen-xs) and (max-width: @screen-sm) {
+			right: 10px;
+		}
 	}
 }
