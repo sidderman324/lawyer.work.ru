@@ -1,0 +1,55 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/feedback.less';
+
+
+.feedback {
+	background-image: url('/img/feedback_bgr.png');
+	padding: 44px 0 36px 0;
+
+	&__inner {
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__box {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+
+		&:first-of-type {
+			padding-left: 110px;
+		}
+	}
+
+	&__title {
+		font-size: 22px;
+		color: @white-color;
+		margin: 0;
+		font-weight: bold;
+		&:first-of-type {
+			padding-top: 20px;
+		}
+	}
+
+	&__text {
+		font-size: 22px;
+		color: @white-color;
+		margin: 0;
+		margin-top: 50px;
+		font-weight: normal;
+	}
+	&__input {
+		font-size: 14px;
+		height: 45px;
+		line-height: 43px;
+		border: 1px solid @light-gray-color;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	&__submit {
+		.btn_red;
+		border: 0;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+}

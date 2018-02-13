@@ -172,29 +172,39 @@
 			<span class="section__separator"><span class="section__separator-inner"></span></span>
 			<p class="section__subtitle">Комментарии новостей и событий нашими специалистами</p>
 
-			<div class="blog-item">
-				<div class="blog-item__img-wrapper">
-					<img src="" alt="" class="blog-item__img">
+			<div class="blog__item-wrapper">
+				<div class="blog__item-column">
+					<div class="blog__item">
+						<div class="blog__item-img-wrapper">
+							<img src="/img/blog_1.png" alt="" class="blog__item-img">
+						</div>
+						<p class="blog__item-date">26 янв</p>
+						<p class="blog__item-description">Минфин РФ в долгожданном законопроекте о регулировании Initial Coin Offering (ICO) описал процедуру размещения токенов по...
+							<a href="" class="blog__item-btn">Подробнее</a>
+						</p>
+						
+					</div>
 				</div>
-				<p class="blog-item__date">26 янв</p>
-				<p class="blog-item__description">Минфин РФ в долгожданном законопроекте о регулировании Initial Coin Offering (ICO) описал процедуру размещения токенов по...</p>
-				<a href="" class="blog-item__btn">Подробнее</a>
-			</div>
-			<div class="blog-item">
-				<div class="blog-item__img-wrapper">
-					<img src="" alt="" class="blog-item__img">
+				<div class="blog__item-column">
+					<div class="blog__item blog__item--small">
+						<div class="blog__item-img-wrapper">
+							<img src="/img/blog_2.png" alt="" class="blog__item-img">
+						</div>
+						<p class="blog__item-date">2 фев</p>
+						<p class="blog__item-description blog__item-description--small">Собственников компаний-банкротов будут привлекать к ответственности в два приема, но быстро...
+						<a href="" class="blog__item-btn">Подробнее</a>
+					</p>
+					</div>
+					<div class="blog__item blog__item--small">
+						<div class="blog__item-img-wrapper">
+							<img src="/img/blog_3.png" alt="" class="blog__item-img">
+						</div>
+						<p class="blog__item-date">2 фев</p>
+						<p class="blog__item-description blog__item-description--small">Между истцом и ответчиком может встать «миротворец». Насколько полезна инициатива Верховного суда...
+						<a href="" class="blog__item-btn">Подробнее</a>
+					</p>
+					</div>
 				</div>
-				<p class="blog-item__date">2 фев</p>
-				<p class="blog-item__description">Собственников компаний-банкротов будут привлекать к ответственности в два приема, но быстро...</p>
-				<a href="" class="blog-item__btn">Подробнее</a>
-			</div>
-			<div class="blog-item">
-				<div class="blog-item__img-wrapper">
-					<img src="" alt="" class="blog-item__img">
-				</div>
-				<p class="blog-item__date">2 фев</p>
-				<p class="blog-item__description">Между истцом и ответчиком может встать «миротворец». Насколько полезна инициатива Верховного суда...</p>
-				<a href="" class="blog-item__btn">Подробнее</a>
 			</div>
 			<span class="section__separator"><span class="section__separator-inner section__separator-inner--gray"></span></span>
 		</div>
@@ -205,7 +215,7 @@
 			<div class="feedback__box">
 				<p class="feedback__title">Возникли вопросы?</p>
 				<p class="feedback__title">По какой услуге обратиться?</p>
-				<p class="feedback__text">Свяжитесь с нами и мы поможем Вам!</p>
+				<p class="feedback__text">Свяжитесь с нами<br> и мы поможем Вам!</p>
 			</div>
 			<div class="feedback__box">
 				<input type="text" class="feedback__input" placeholder="Тема сообщения">
